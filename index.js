@@ -6,6 +6,7 @@ let jsonData = {
   name: "mihir",
   wife: "supriya",
 };
+console.log(process.env.PORT);
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
